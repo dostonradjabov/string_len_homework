@@ -8,4 +8,6 @@ def main(s):
     Returns:
         bool: answer
     """
-    return
+    return s[::-1] == s
+print(main("cff"))
+print(main("cdc"))
